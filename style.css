@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(yellow 0%, aqua 100%);
+}
+
+h1 {
+    color: rgb(252, 0, 0);
+    background-color: aquamarine;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 40px white;
+    }
+
+    to {
+        box-shadow: 1px 1px 40px grey;
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.copyright_footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    color: rgb(48, 218, 32);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+#score {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#time {
+    font-size: 35px;
+    float: right;
+    margin-right: 20px;
+}
